@@ -1,0 +1,631 @@
+@import url('https://fonts.google.com/specimen/Open+Sans+Condensed');
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans Condensed';
+  color: #222;
+}
+
+.navbar {
+  background: #16334d !important;
+}
+.bg-dark {
+  background: #16334d !important;
+}
+.list-unstyled ul{
+  margin: 0px;
+  padding: 0px;
+}
+.list-unstyled ul li{
+  list-style: none;
+  float: left;
+}
+.list-unstyled ul li a {
+  text-decoration: none;
+  display: block;
+  color: white !important;
+}
+
+.list-unstyled:hover {
+    color: white !important;
+}
+.dropdown .active {
+  color: #d3a458 !important;
+} 
+.dropdown .navbar-toggler {
+  color: #d3a458;
+  font-size: 16px;
+  margin-left: 3px;
+}
+.dropdown-botton {
+  margin-bottom: 10px;
+}
+.dropdown .nav-link {
+  color: #d3a458;
+}
+.navbar-collapse .nav-link {
+  color: #d3a458;
+}
+.list-menu {
+  margin-top: 25px;
+}
+.list-contact {
+  margin-top: 30px;
+  color: #d3a458;
+}
+.list-contact a{
+  margin-right: 10px;
+  color: #d3a458;
+}
+.list-contact .fa {
+  font-size: 100%;
+  text-decoration: none;
+}
+.list-contact .fa-big {
+  font-size: 120%;
+}
+.list-contact .word {
+   text-decoration: none;
+}
+#myDropdown a {
+  color: #d3a458 !important;
+  width: 100px;
+  margin-left: 50px;
+}
+#myDropdown a:hover{
+  color: #fdfdff !important;
+}
+
+#myDropdown1 a {
+  width: 100px;
+  margin-left: 50px;
+  color: #d3a458 !important;
+}
+#myDropdown1 a:hover{
+  color: #fdfdff !important;
+}
+#icon a {
+  font-size: 13px;
+  color: #f2f2f2 !important;
+  text-decoration: none;
+}
+#icon .fa {
+  margin-right: 5px;
+}
+/*---------------------hết thanh menu-----------------------*/
+
+#come-home .back-home a {
+  color: #08080a !important;
+  text-decoration: none;
+}
+#come-home .back-home a:hover {
+  color: #d3a458 !important;
+}
+.back-home span {
+  margin-right: 7px;
+}
+
+/*------------------sale---------------*/
+.gif-sale img {
+  height: 130px;
+  float: right;
+}
+.gif-sale .btn-lg {
+  font-size: 70%;
+  border-color:  #d3a458;
+  background: #942a2a;
+  text-align: center;
+}
+.gif-sale .btn-lg:hover {
+  border-color:  white;
+  background: #681111;
+}
+/*----------------hết content------------*/
+.footer {
+  background: #16334d;
+}
+.fa-facebook {
+  color: #3b5998; 
+  }
+.fa-twitter {
+  color: #00aced; 
+}
+.fa-instagram {
+  color: #d36565;
+}
+.lienhe a {
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+  color: #fdfdfd;
+}
+.lienhe a:hover {
+  color: #d3a458;
+  text-decoration: none;
+}
+.web-end {
+  color: #fdfdfd;
+  text-align: center;
+  margin: 25px 0px 20px 0px;
+}
+/*-------------hết chân trang-----------*/
+
+@media all and (min-width: 360px){
+    
+    .navbar {
+      height: 60px;
+    }
+    .navbar ul li a {
+      height: 60px;
+      line-height: 60px;
+      padding: 0px 15px 0px 15px;
+    }
+    .navbar-collapse {
+      background: #16334d;
+      width: 60px;
+    }
+    .anhlogo {
+      width: 35px;
+    }
+    .list-contact {
+      padding-left: 30px;
+    }
+    .list-contact .fa {
+      font-size: 70%;
+    }
+    .list-contact .fa-big {
+      font-size: 85%;
+    }
+    .list-contact .word {
+       font-size: 12px;
+    }
+    .dropdown .navbar-toggler {
+      font-size: 12px;
+    }
+    .dropdown .nav-link {
+      font-size: 12px;
+    }
+    .navbar-collapse .nav-link {
+      font-size: 12px;
+    }
+    .icon-contact {
+      display: none;
+    }
+    /*----------------------hết thanh menu-------------*/
+    #come-home {
+      margin: 10px 0px 20px 0px;
+    }
+    #come-home .back-home a {
+      margin: 30px 0px 0px 20px;
+    }
+    .row4 {
+        margin: 80px 2px 150px 2px;
+    }
+    .carousel-inner img {
+      width: 300px;
+      height: 220px;
+      margin-left: 3px;
+      margin-bottom: 30px;
+    }
+    .detail {
+      margin-left: 20px;
+    }
+    .detail p {
+      font-size: 15px;
+    }
+    .detail .btn-lg {
+      background: #16334d;
+      color: #efeded;
+      font-size: 60%;
+    }
+    .detail .btn-lg:hover {
+      background: #d3a458;
+    }
+    .detail1 {
+      margin-left: 20px;
+      margin-bottom: 50px;
+    }
+    .detail1 p {
+      font-size: 15px;
+    }
+    .detail1 .btn-lg {
+      background: #16334d;
+      color: #efeded;
+      font-size: 60%;
+    }
+    .detail1 .btn-lg:hover {
+      background: #d3a458;
+    }
+    /*-------------content------------*/
+    .fab-list {   
+      text-align: center;
+    }
+    .fab-list a {
+      font-size: 150%;
+      padding: 20px 10px 10px 10px;
+    }
+    .lienhe {
+      margin: 20px 30px 10px 20px;
+      font-size: 12px;
+    }
+    .web-end p{
+      font-size: 12px;
+    }
+    .web-end h6 {
+      font-size: 12px;
+    }
+    /*-----------hết chân trang------------*/
+}
+
+@media all and (min-width: 400px){
+    
+    .navbar {
+      height: 60px;
+    }
+    .navbar ul li a {
+      height: 30px;
+      line-height: 30px;
+      padding: 0px 15px 0px 15px;
+    }
+
+    .anhlogo {
+      width: 35px;
+    }
+
+    /*----------------------hết thanh menu-------------*/
+    #come-home {
+      margin: 10px 0px 30px 0px;
+    }
+    #come-home .back-home a {
+      margin: 30px 0px 0px 30px;
+    }
+    .row4 {
+        margin: 80px 2px 150px 2px;
+    }
+    .carousel-inner img {
+      width: 360px;
+      height: 240px;
+      margin-left: 7px;
+      margin-bottom: 30px;
+    }
+    .detail {
+      margin-left: 20px;
+    }
+    .detail p {
+      font-size: 15px;
+    }
+    .detail .btn-lg {
+      background: #16334d;
+      color: #efeded;
+      font-size: 60%;
+    }
+    .detail .btn-lg:hover {
+      background: #d3a458;
+    }
+    .detail1 {
+      margin-left: 20px;
+      margin-bottom: 50px;
+    }
+    .detail1 p {
+      font-size: 15px;
+    }
+    .detail1 .btn-lg {
+      background: #16334d;
+      color: #efeded;
+      font-size: 60%;
+    }
+    .detail1 .btn-lg:hover {
+      background: #d3a458;
+    }
+    /*-------------content------------*/
+    .gif-sale .btn-lg {
+      margin-left: 150px;
+      margin-bottom: 30px;
+    }
+    .gif-sale img {
+      width: 300px;
+      margin-right: 40px;
+      margin-bottom: 30px;
+    }
+}
+
+@media all and (min-width: 760px){
+    
+    .navbar {
+      height: 70px;
+    }
+    .navbar ul li{
+      padding: 0px 10px 0px 10px;
+    }
+    .navbar ul li a {
+      height: 30px;
+      line-height: 30px;
+      padding: 0px 10px 0px 10px;
+      font-size: 13px;
+    }
+    .anhlogo {
+      width: 45px;
+    }
+    .list-contact {
+      padding-left: 30px;
+    }
+    .icon-contact {
+      display: none;
+    }
+    /*------------------hết thanh menu----*/
+    #come-home {
+      margin: 10px 0px 30px 0px;
+    }
+    #come-home .back-home a {
+      margin: 30px 0px 0px 560px;
+    }
+    .row4 {
+        margin: 100px 20px 150px 20px;
+    }
+    .carousel-inner img {
+      width: 580px;
+      height: 340px;
+      margin-left: 40px;
+      margin-bottom: 30px;
+    }
+    .detail {
+      padding-left: 30px;
+    }
+    .detail p {
+      font-size: 18px;
+    }
+    .detail .btn-lg {
+      background: #16334d;
+      color: #efeded;
+      font-size: 70%;
+    }
+    .detail .btn-lg:hover {
+      background: #d3a458;
+    }
+    .detail1 {
+      margin-left: 40px;
+      margin-bottom: 50px;
+    }
+    .detail1 p {
+      font-size: 18px;
+    }
+    .detail1 .btn-lg {
+      background: #16334d;
+      color: #efeded;
+      font-size: 70%;
+    }
+    .detail1 .btn-lg:hover {
+      background: #d3a458;
+    }
+    /*-------------content------------*/
+    .fab-list {   
+      text-align: center;
+      padding-top: 14px;
+    }
+    .fab-list a {
+      font-size: 150%;
+      padding: 30px 10px 10px 10px;
+    }
+    .lienhe {
+      margin: 20px 30px 10px 20px;
+      font-size: 12px;
+    }
+    .footer .web-address {
+      display: block;
+    }
+    .web-address p{
+      font-size: 12px;
+    }
+    .web-address h6 {
+      font-size: 12px;
+    }
+    /*-----------hết chân trang------------*/
+}
+
+@media all and (min-width: 1024px){
+    
+    .navbar {
+      height: 60px;
+    }
+    .navbar ul li{
+      padding: 0px 15px 0px 15px;
+    }
+    .navbar ul li a {
+      height: 30px;
+      line-height: 30px;
+      padding: 0px 15px 0px 15px;
+      font-size: 18px;
+    }
+    .anhlogo {
+      width: 45px;
+    }
+    .icon-contact {
+      display: block;
+    }
+    .d-flex .icon-contact {
+      text-align: right;
+      padding-left: 300px;
+    }
+    /*-----hết thanh menu----*/
+    #come-home {
+      margin: 10px 0px 30px 0px;
+    }
+    #come-home .back-home a {
+      margin: 20px 0px 0px 740px;
+    }
+    .row4 {
+        margin: 100px 20px 150px 20px;
+    }
+    .carousel-inner img {
+      width: 580px;
+      height: 340px;
+    }
+    .detail {
+      padding-left: 30px;
+    }
+    .detail p {
+      font-size: 18px;
+    }
+    .detail .btn-lg {
+      background: #16334d;
+      color: #efeded;
+      font-size: 70%;
+    }
+    .detail .btn-lg:hover {
+      background: #d3a458;
+    }
+    .detail1 {
+      padding-right: 30px;
+    }
+    .detail1 p {
+      font-size: 18px;
+    }
+    .detail1 .btn-lg {
+      background: #16334d;
+      color: #efeded;
+      font-size: 70%;
+    }
+    .detail1 .btn-lg:hover {
+      background: #d3a458;
+    }
+    /*-------------content------------*/
+    .fab-list a {
+      font-size: 150%;
+      padding: 20px 20px 10px 20px;
+    }
+    .fab-list {
+      padding-top: 30px;
+    }
+    .lienhe {
+      margin: 40px 30px 10px 200px;
+    }
+    .an-diachi {
+      display: block;
+    }
+    /*-----------hết chân trang------------*/
+}
+
+@media all and (min-width: 1280px){
+    
+    .navbar {
+      height: 60px;
+    }
+    .navbar ul li{
+      padding: 0px 40px 0px 40px;
+    }
+    .navbar ul li a {
+      height: 60px;
+      line-height: 60px;
+      padding: 0px 15px 0px 15px;
+      font-size: 17px;
+    }
+    .icon-contact {
+      display: block;
+    }
+    .d-flex .icon-contact {
+      text-align: right;
+      padding-left: 500px;
+    }
+    #icon .address-mail:hover {
+      color: #d3a458 !important;
+    }
+    #language:hover {
+      color: #d3a458 !important;
+    }
+    .anhlogo {
+      width: 47px;
+    }
+    .list-contact {
+      padding-left: 30px;
+    }
+    .list-contact .fa {
+      font-size: 100%;
+    }
+    .list-contact .fa-big {
+      font-size: 120%;
+    }
+    .list-contact .word {
+       font-size: 16px;
+    }
+    .dropdown .navbar-toggler {
+      font-size: 16px;
+    }
+    .dropdown .nav-link {
+      font-size: 16px;
+    }
+    .navbar-collapse .nav-link {
+      font-size: 16px;
+    }
+    /*-----------------hết thanh menu----------*/
+    #come-home {
+      margin: 10px 0px 30px 0px;
+    }
+    #come-home .back-home a {
+      margin: 20px 0px 0px 1080px;
+    }
+    /*------------------------*/
+    .row4 {
+        margin: 100px 90px 150px 90px;
+    }
+    .carousel-inner img {
+      width: 570px;
+      height: 380px;
+    }
+    .detail {
+      padding-left: 100px;
+    }
+    .detail p {
+      font-size: 18px;
+    }
+    .detail .btn-lg {
+      background: #16334d;
+      color: #efeded;
+      font-size: 70%;
+    }
+    .detail .btn-lg:hover {
+      background: #d3a458;
+    }
+    .detail1 {
+      padding-right: 100px;
+    }
+    .detail1 p {
+      font-size: 18px;
+    }
+    .detail1 .btn-lg {
+      background: #16334d;
+      color: #efeded;
+      font-size: 70%;
+    }
+    .detail1 .btn-lg:hover {
+      background: #d3a458;
+    }
+    /*-------------content------------*/
+    .fab-list a {
+      font-size: 150%;
+      padding: 20px 20px 10px 20px;
+    }
+    .fab-list {
+      padding-top: 30px;
+    }
+    .lienhe {
+      margin: 40px 30px 10px 200px;
+    }
+    .an-diachi {
+      display: block;
+    }
+    .web-end p{
+      font-size: 17px;
+    }
+    .web-end h6 {
+      font-size: 15px;
+    }
+    .lienhe a {
+      font-size: 17px;
+    }
+    .input .btn-outline-secondary {
+      color:#0b0b0b; 
+      font-size: 70%;
+      margin-right: 80px;
+    }
+}

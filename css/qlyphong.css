@@ -1,0 +1,184 @@
+body
+{
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: Arial, helvetica;
+	font-size: 18px;
+	background-color: #f7f7f7;
+}
+#body
+{
+	display: flex;
+}
+
+i.fas
+{
+	padding-top: 8px;
+	color:#fff;
+	font-size: 25px;
+}
+i.fas:hover
+{
+	color: #A98AAF;
+}
+table{
+	margin-top:50px;
+	margin-left: 300px;
+	padding: 0 auto;
+	width: 60%;
+	height: 550px;
+    border:1px solid black;
+    text-align: center;
+}
+th
+{
+	 font-weight:bold;
+	font-size: 50px;
+	border-radius: 5px; 
+	border:1px solid black;
+	vertical-align: middle;
+}
+tr{
+    border:1px solid black;
+}
+td{
+	vertical-align: middle;
+    border:1px solid black;
+}
+table tr td
+{
+	text-align: center;
+}
+.bangnv table tr td {
+	font-size: 17px;
+}
+.menu2
+{
+	margin-top: -100px;
+	float:left;
+	width: 250px;
+	height: 800px;
+	background-color:  #2a3f54;	
+}
+.menu2 ul li
+{
+	list-style: none;
+	padding: 15px;
+	position: relative;
+	width: 100%;
+	
+}
+.menu2 ul li a
+{
+	font-family: time new roman;
+	font-size: 20px;
+	color:white;
+	text-decoration: none;
+}
+.menu2 ul li a:hover
+{
+	color:#CAC4CB;
+}
+.menu2 p
+{
+	text-align: center;
+}
+h2 
+{
+	text-align: center;
+	color:white;
+	margin-top: -20px;
+	line-height: 25px;
+	font-family: Adelaide;
+    font-size: 22px;
+}
+.menu1
+{
+	height: 80px;
+	width: 84%;
+	margin-left: 250px;
+	background-color: #ededed;
+	display: flex;
+}
+.menu2 .bieutuong{
+	font-size: 18px;
+}
+.search-box
+{
+	position: absolute;
+	top:4%;
+	left: 260px;
+	transform: translate(0%,-50%);
+	background: #C7C4C8;
+	width: 60%;
+	height:30px;
+	border-radius: 40px;
+	padding: 8px;
+
+}
+.search-box:hover > .search-txt
+{
+     width: 240px;
+     padding:0 6px;
+}
+.search-btn
+{
+	text-decoration: none;
+	float:left;
+	width: 40px;
+	height: 30px;
+	border-radius:  50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.search-txt
+{
+	border:none;
+	background-color: #C7C4C8;
+	outline: none;
+	border-radius:  50%;
+	float:black;
+	padding:0;
+	color:black;
+	font-size: 20px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+.profile
+{
+	position: absolute;
+	/*right:10px;*/
+	width: 40%;
+
+}
+/*.profile ul
+{
+	float:left;
+}
+.profile ul li a
+{
+	text-decoration: none;
+}*/
+.note
+{
+	width: 200px;
+	height: 200px;
+	background-color: #F4F3F5;
+	border-radius: 10px;
+	border: #DFDEE0 solid 2px;
+	position: absolute;
+	top:23%; 
+	right:10%;
+}
+.menu2 .mmm a {
+	text-decoration: none;
+	color: #ebfae5;
+}
+.menu2 .mmm a:hover {
+	color:  #a9ee7e;
+}
+.phong table td a {
+	color: #0c0b0b;
+}

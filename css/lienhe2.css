@@ -1,0 +1,93 @@
+
+#come-home .back-home a {
+  margin: 100px 30px 0px 500px;
+  color: #08080a !important;
+  text-decoration: none;
+}
+#come-home .back-home a:hover {
+  color: #d3a458 !important;
+}
+#come-home .back-home .abc {
+  color: #08080a !important;	
+}
+.back-home span {
+  margin-right: 7px;
+}
+
+@media all and (min-width: 360px){
+    
+    /*----------------------hết thanh menu-------------*/
+    #come-home .back-home a {
+      margin: 30px 0px 0px 20px;
+    }
+    .tintuc h1 {
+      font-size: 24px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+    .chitiet-lienhe {
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+@media all and (min-width: 400px){
+    
+
+    /*----------------------hết thanh menu-------------*/
+    #come-home .back-home a {
+      margin: 30px 0px 0px 30px;
+    }
+}
+
+@media all and (min-width: 760px){
+    
+    /*------------------hết thanh menu----*/
+    #come-home .back-home a {
+      margin: 30px 0px 0px 560px;
+    }
+    .tintuc h1 {
+      font-size: 21px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .chitiet-lienhe {
+		margin-left: 140px;
+		margin-bottom: 30px;
+	}
+}
+
+@media all and (min-width: 1024px){
+    
+    /*-----hết thanh menu----*/
+    #come-home .back-home a {
+      margin: 20px 0px 0px 740px;
+    }
+     .tintuc h1 {
+      font-size: 40px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+    }
+    .chitiet-lienhe {
+		margin-left: 170px;
+		margin-bottom: 30px;
+	}
+}
+
+@media all and (min-width: 1280px){
+    
+    /*-----------------hết thanh menu----------*/
+    #come-home .back-home a {
+      margin: 20px 0px 0px 1080px;
+    }
+    .tintuc h1 {
+      font-style: 100px;
+      padding-top: 40px;
+      padding-bottom: 30px;
+    }
+    .chitiet-lienhe {
+		margin-left: 300px;
+		margin-bottom: 30px;
+	}
+
+}

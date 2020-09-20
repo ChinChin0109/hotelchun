@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ADMIN C.H.U.N</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/qlyphong.css">
+	<script language="javascript">
+		function xacNhan(msg,url){
+			if (confirm(msg)) 
+			{
+				window.location.href=url
+			}
+			else 
+				false;
+		}
+	</script>
+</head>
+<body>	
+	<div class="menu1" ><!-- menu1 -->
+			<!-- <div class="profile"> --> <!-- profile -->
+			<div class="dropdown profile" style="padding-right: 0px;">
+				   <a class="nav-link " href="#" data-toggle="dropdown">
+				      	<i class="fas fa-cog" style="color: #14141a;"></i>
+				      </a>
+				    <div class="dropdown-menu" style="margin-right: 90px; width: 70px;">
+				      <a class="dropdown-item" href="#">Profile</a>
+				      <a class="dropdown-item" href="#">Settings</a>
+				      <a class="dropdown-item" href="dangxuat.php">Log Out</a>
+				    </div>
+			</div>
+		
+	</div><!-- end menu1     -->	     
+	<div class="menu2"><!-- menu -->
+	   <p>
+	   	<img src="img/logo2.png" alt="" style="width: 20%; margin-top: 36px; margin-bottom: 20px;">
+	   	<h2>WELCOME <br>|Paiement par carte|</h2>
+	   	<hr>
+	   </p>
+		<ul class="mmm" style="padding-left: 10px;">
+			<li>
+				<i class="fas fa-home bieutuong"></i>
+				<a href="adminweb.php" style="font-size: 19px; padding-left: 18px;">Home</a>
+			</li>
+			<li>
+				<i class="fas fa-hotel bieutuong"></i>
+				<a href="qldatphong.php" style="font-size: 19px; padding-left: 18px;">Quản lý đặt phòng</a>
+			</li>
+			<li>
+				<i class="fas fa-server bieutuong"></i>
+				<a href="qlnv.php" style="font-size: 19px; padding-left: 18px;">Quản lý nhân viên</a>
+			</li>
+			<li>
+				<i class="fas fa-server bieutuong"></i>
+				<a href="qlkhachhang.php" style="font-size: 19px; padding-left: 18px;">Quản lý khách hàng</a>
+			</li>
+			<li>
+				<i class="fas fa-server bieutuong"></i>
+				<a href="quanlyphong.php" style="font-size: 19px; padding-left: 18px;">Quản lý phòng</a>
+			</li>
+			<li>
+				<i class="fas fa-concierge-bell bieutuong"></i>
+				<a href="qldichvu.php" style="font-size: 19px; padding-left: 18px;">Dịch vụ</a>
+			</li>
+			<li>
+				<i class="fas fa-star bieutuong"></i>
+				<a href="phanchicv.html" style="font-size: 19px; padding-left: 18px;">Đánh giá</a>
+			</li>
+		</ul>
+	</div><!-- end menu -->
+	 <div class="container-fluid padding phong">
+	 	<div class="row1" style="margin-left: 50px;">
+	 		<!-- <h4 style="padding-top: 30px; padding-left: 240px;">Đăng nhập thành công</h4> -->
+	 		<table>
+	 			<tr>
+	 				<td>Mã Khách hàng</td>
+	 				<td>Tên Khách hàng</td>
+	 				<td>Số điện thoại</td>
+	 				<td>Nhóm khách hàng</td>
+	 				<td>Đã thanh toán</td>
+	 				<td>Nợ hiện tại</td>
+	 				<td>Tổng nợ</td>
+	 			</tr>
+	 			<tr>
+	 				<td>MKH21938</td>
+	 				<td>Trần Thị Hồng Mến</td>
+	 				<td>0147651953</td>
+	 				<td>Thân thiết</td>
+	 				<td>1.000.000</td>
+	 				<td>479.000</td>
+	 				<td>479.000</td>
+	 			</tr>
+	 			<tr>
+	 				<td>Mã Khách hàng</td>
+	 				<td>Tên Khách hàng</td>
+	 				<td>Số điện thoại</td>
+	 				<td>Nhóm khách hàng</td>
+	 				<td>Đã thanh toán</td>
+	 				<td>Nợ hiện tại</td>
+	 				<td>Tổng nợ</td>
+	 			</tr>
+	 		</table>
+	 	</div>
+
+	 </div> <!-- het container -->
+</body>
+</html>
